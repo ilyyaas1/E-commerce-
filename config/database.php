@@ -1,7 +1,7 @@
 <?php
 
 function connectMabasi(){
-    $lien = new mysqli('localhost','root','Bennani!ilyass?*','site_ecom');
+    $lien = new mysqli('localhost','root','','site_ecom');
     if($lien->connect_error){
         die("Connection failed: ". $lien->connect_error );
     }
